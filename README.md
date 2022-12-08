@@ -4,8 +4,7 @@
 ![Image of Sandro Cagara](https://i.ibb.co/Tmjxnhs/README-Spotify-Status-v2.jpg)
 <p align="center">
    <h3>Demo</h3>
-   <img src="https://spotify-status-real-time-git-hub.vercel.app/api/run-spotify-status" alt="s4nx Playing Now" width="500" />
-   <img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="s4nx Playing Now" width="500" />
+   <img src="https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status" alt="s4nx Playing Now" width="500" />
 <p align="center">
 
 Spotify for Developers
@@ -68,25 +67,25 @@ Put this in your README.md
 
 
 
-<img src="https://spotify-status-real-time-git-hub-git-master-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" />
+<img src="https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" />
 
 ``` 
-[<img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" />](LINK_TO_YOUR_ACCOUNT)
+[<img src="https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" />](LINK_TO_YOUR_ACCOUNT)
 ```
 
 <h3>Medium</h3>
 
-<img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="400" />
+<img src="https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="400" />
 
 ``` 
-[<img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="400" />](LINK_TO_YOUR_ACCOUNT)
+[<img src="https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="400" />](LINK_TO_YOUR_ACCOUNT)
 ```
 
 <h3>Large</h3>
 
-<img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="500" />
+<img src="https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="500" />
 
 ``` 
-<img src="https://{DOMAIN_OF_YOUR_VERCEL_APP}/api/run-spotify-status" alt="Your alt what" width="500" />](LINK_TO_YOUR_ACCOUNT)
+<img src="https://https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status/api/run-spotify-status" alt="Your alt what" width="500" />](LINK_TO_YOUR_ACCOUNT)
 ```
 
