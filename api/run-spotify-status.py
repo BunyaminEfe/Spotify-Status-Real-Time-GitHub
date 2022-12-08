@@ -14,7 +14,7 @@ SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
 SPOTIFY_SECRET_ID = os.getenv("SPOTIFY_SECRET_ID")
 SPOTIFY_REFRESH_TOKEN = os.getenv("SPOTIFY_REFRESH_TOKEN")
 SPOTIFY_BAR_COLOR = os.getenv("SPOTIFY_BAR_COLOR")
-SPOTIFY_ENABLE_DURATION = os.getenv("SPOTIFY_ENABLE_DURATION")
+SPOTIFY_BADGE_COLOR = os.getenv("SPOTIFY_BADGE_COLOR")
 
 app = Flask(__name__, template_folder="components")
 
@@ -84,18 +84,20 @@ def convertMsToMin(ms):
 
 
 def spectrographWidth():
-    if SPOTIFY_ENABLE_DURATION == 'True':
-        return 52
     return 98
+
+
+def getSpotifyBadgeColor():
+    default = "#1DB954"
+    if SPOTIFY_BADGE_COLOR:
+        return SPOTIFY_BADGE_COLOR
+    return default
 
 
 def setSpotifyObject(item):
     soundBars = 41
     soundVisualizerBar = "".join(["<div class='spectrograph__bar'></div>" for i in range(soundBars)])
     soundVisualizerCSS = soundVisualizer(soundBars)
-
-    duration = item["duration_ms"]
-    default_duration = convertMsToMin(duration)
     musicLink = item["album"]["external_urls"]
     musicTime = convertMsToMin(item["duration_ms"])
     explicit = item["explicit"]
@@ -104,17 +106,16 @@ def setSpotifyObject(item):
     songName = item["name"].replace("&", "&amp;")
     spotifyIcon = loadImageB64("https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png")
     viewAnimation = len(songName) > 27
+    spotifyBadgeColor = getSpotifyBadgeColor()
 
     spotifyObject = {
-        "enableDuration": SPOTIFY_ENABLE_DURATION,
+        "spotifyBadgeColor": spotifyBadgeColor,
         "spectrographWidth": spectrographWidth(),
-        "duration": duration,
-        "default_duration": default_duration,
         "soundVisualizerBar": soundVisualizerBar,
         "soundVisualizerCSS": soundVisualizerCSS,
         "artistName": artistName,
         "spotifyIcon": spotifyIcon,
-        "viewAnimation":viewAnimation,
+        "viewAnimation": viewAnimation,
         "songName": songName,
         "albumCover": albumCover,
         "barColor": SPOTIFY_BAR_COLOR,
@@ -126,7 +127,6 @@ def setSpotifyObject(item):
 
 
 def makeSVG(data):
-    print(data)
     if data == {}:
         recent_plays = recentlyPlayed()
         size_recent_play = len(recent_plays["items"])
@@ -134,7 +134,6 @@ def makeSVG(data):
         item = recent_plays["items"][idx]["track"]
     else:
         item = data["item"]
-    print(item)  # when ads on its None fix maybe
 
     spotifyObject = setSpotifyObject(item)
 
