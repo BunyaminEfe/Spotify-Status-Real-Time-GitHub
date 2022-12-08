@@ -4,7 +4,7 @@
 ![Image of Sandro Cagara](https://i.ibb.co/Tmjxnhs/README-Spotify-Status-v2.jpg)
 <p align="center">
    <h3>Demo</h3>
-   <img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="s4nx Playing Now" width="500" />
+   <img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt=" Playing Now" width="500" />
 <p align="center">
 
 Spotify for Developers
@@ -67,25 +67,25 @@ Put this in your README.md
 
 
 
-<a href="https://open.spotify.com/user/4rvni9j5l95p58zr60wicwlwk"><img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" /></a>
+<img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" />
 
 ``` 
-[<a href="https://open.spotify.com/user/4rvni9j5l95p58zr60wicwlwk"><img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" /></a>](LINK_TO_YOUR_ACCOUNT)
+[<img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" />](LINK_TO_YOUR_ACCOUNT)
 ```
 
 <h3>Medium</h3>
 
-<a href="https://open.spotify.com/user/4rvni9j5l95p58zr60wicwlwk"><img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="400" /></a>
+<img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="400" />
 
 ``` 
-[<a href="https://open.spotify.com/user/4rvni9j5l95p58zr60wicwlwk"><img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="400" /></a>](LINK_TO_YOUR_ACCOUNT)
+[<img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="400" />](LINK_TO_YOUR_ACCOUNT)
 ```
 
 <h3>Large</h3>
 
-<a href="https://open.spotify.com/user/4rvni9j5l95p58zr60wicwlwk"><img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="500" /></a>
+<img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="500" />
 
 ``` 
-[<a href="https://open.spotify.com/user/4rvni9j5l95p58zr60wicwlwk"><img src="https://{DOMAIN_OF_YOUR_VERCEL_APP}/api/run-spotify-status" alt="Your alt what" width="500" /></a>](LINK_TO_YOUR_ACCOUNT)
+<img src="https://{DOMAIN_OF_YOUR_VERCEL_APP}/api/run-spotify-status" alt="Your alt what" width="500" />](LINK_TO_YOUR_ACCOUNT)
 ```
 
