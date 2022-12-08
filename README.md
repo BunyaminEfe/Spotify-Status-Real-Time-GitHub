@@ -67,7 +67,7 @@ Put this in your README.md
 
 
 
-<img src="https://spotify-status-real-time-git-hub-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" />
+<img src="https://spotify-status-real-time-git-hub-git-master-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" />
 
 ``` 
 [<img src="https://spoti-redmi.bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" />](LINK_TO_YOUR_ACCOUNT)
