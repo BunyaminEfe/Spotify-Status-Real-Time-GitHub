@@ -68,7 +68,7 @@ Put this in your README.md
 
 
 
-<img src="https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" />
+<img src="https://spotify-status-real-time-git-hub-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" />
 
 ``` 
 [<img src="https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="350" />](LINK_TO_YOUR_ACCOUNT)
@@ -76,7 +76,7 @@ Put this in your README.md
 
 <h3>Medium</h3>
 
-<img src="https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="400" />
+<img src="https://spotify-status-real-time-git-hub-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="400" />
 
 ``` 
 [<img src="https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="400" />](LINK_TO_YOUR_ACCOUNT)
@@ -84,7 +84,7 @@ Put this in your README.md
 
 <h3>Large</h3>
 
-<img src="https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="500" />
+<img src="https://spotify-status-real-time-git-hub-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="500" />
 
 ``` 
 <img src="https://https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status/api/run-spotify-status" alt="Your alt what" width="500" />](LINK_TO_YOUR_ACCOUNT)
