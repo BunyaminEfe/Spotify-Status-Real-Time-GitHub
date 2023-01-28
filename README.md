@@ -4,7 +4,8 @@
 ![Image of Sandro Cagara](https://i.ibb.co/Tmjxnhs/README-Spotify-Status-v2.jpg)
 <p align="center">
    <h3>Demo</h3>
-   <img src="https://spotify-status-real-time-git-hub-csmm-bunyaminefe.vercel.app/api/run-spotify-status" alt="s4nx Playing Now" width="500" />
+             
+   <img src="https://spotify-status-real-time-git-hub-bunyaminefe.vercel.app/api/run-spotify-status" alt="Bejo Playing Now" width="500" />
 <p align="center">
 
 Spotify for Developers
